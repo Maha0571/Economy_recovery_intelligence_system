@@ -13,15 +13,15 @@ __pycache__/
 # =========================
 # DATA FILES (optional)
 # =========================
-Data/
-*.csv
+#Data/
+#*.csv
 
 # =========================
 # MODEL FILES (optional)
 # =========================
-models/
-*.pkl
-*.joblib
+#models/
+#*.pkl
+#*.joblib
 
 # =========================
 # LOGS
