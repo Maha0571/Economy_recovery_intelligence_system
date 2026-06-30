@@ -6,7 +6,7 @@ from src.model_training import train_model
 from src.evaluation import evaluate_model
 from src.shap_analysis import run_shap_analysis
 from src.forecasting import forecast_country
-from src.model_utils import save_model
+from src.model_saver import save_model
 from src.ai_helper import chat_with_ollama
 
 # =========================
@@ -145,7 +145,7 @@ prompt = f"""
 You are a professional Economic Analyst.
 
 Country: {country}
-Year: {year}
+
 
 Prediction: {prediction_text}
 Confidence: {prob:.2%}
